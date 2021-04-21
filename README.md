@@ -15,8 +15,8 @@ Perform the following commands in order. Use TAB (autocomplete whenever necessar
 10. rename `myfile_copy.txt` to `myfile2.txt`
 11. move the `myfile2.txt` to the home(~) directory
 12. list the contents of the home(~) directory
-13. change directory to the parent directory of `CLIBasicsFolder`
-14. from your current folder and without changing back to the `CLIBasicsFolder` delete the `myfile.txt` file that is inside `CLIBasicsFolder`
+13. change directory to the parent without changing  directory of `CLIBasicsFolder`
+14. from your current folder anback to the `CLIBasicsFolder` delete the `myfile.txt` file that is inside `CLIBasicsFolder`
 15. delete `CLIBasicsFolder`
 16. list the contents of the home(~) directory
 
