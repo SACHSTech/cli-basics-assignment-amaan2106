@@ -1,1 +1,108 @@
-
+~/cli-basics-assignment-amaan2106-1$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1
+~/cli-basics-assignment-amaan2106-1$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-amaan2106-1$ cd CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1/CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cat myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ echo Amaan ICS4U >> myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cat myfile.txt
+Amaan ICS4U
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls CLIBasicsFolder
+ls: cannot access 'CLIBasicsFolder': No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1/CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls CLIBasicsFolder
+ls: cannot access 'CLIBasicsFolder': No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+CLIBasicsFolder  myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+CLIBasicsFolder  myfile2.txt  myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ mv myfile2.txt ../home
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+CLIBasicsFolder  myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls home
+ls: cannot access 'home': No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ home
+bash: home: command not found
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls home(~)
+bash: syntax error near unexpected token `('
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls home(~)
+bash: syntax error near unexpected token `('
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1/CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /home
+bash: /home: Is a directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /home
+bash: /home: Is a directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls /home
+runner
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1/CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /home/CLIBasicsFolder
+bash: /home/CLIBasicsFolder: No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /home/runner
+bash: /home/runner: Is a directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1/CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /home/runner
+bash: /home/runner: Is a directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cd/home/runner
+bash: cd/home/runner: No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /cd ..
+bash: /cd: No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ /cd ..
+bash: /cd: No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-amaan2106-1$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1
+~/cli-basics-assignment-amaan2106-1$ /home
+bash: /home: Is a directory
+~/cli-basics-assignment-amaan2106-1$ rm -r myfile
+rm: cannot remove 'myfile': No such file or directory
+~/cli-basics-assignment-amaan2106-1$ rm -r myfile.txt
+rm: cannot remove 'myfile.txt': No such file or directory
+~/cli-basics-assignment-amaan2106-1$ pwd
+/home/runner/cli-basics-assignment-amaan2106-1
+~/cli-basics-assignment-amaan2106-1$ cd CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ rm -r myfile
+rm: cannot remove 'myfile': No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ rm -r myfile.txt
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls ~
+cli-basics-assignment-amaan2106-1  _test_runner.py
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ rm -r CLIBasicsFolder
+rm: cannot remove 'CLIBasicsFolder': No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ cd CLIBasicsFolder
+bash: cd: CLIBasicsFolder: No such file or directory
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ las
+bash: las: command not found
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls ~
+cli-basics-assignment-amaan2106-1  _test_runner.py
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ls ~
+cli-basics-assignment-amaan2106-1  _test_runner.py
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ ^C
+~/cli-basics-assignment-amaan2106-1/CLIBasicsFolder$ 
